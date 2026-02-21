@@ -2,7 +2,7 @@ import React from 'react';
 import PageLayout from '../components/PageLayout';
 import SectionTitle from '../components/SectionTitle';
 import { Link } from 'react-router-dom';
-import heroImg from '../assets/jharsugda-02.jpg';
+import heroImg from '../assets/Jharsuguda-02.jpg';
 import emblem from '../assets/odisha-emblem.svg';
 
 const Home = () => {
@@ -67,8 +67,8 @@ const Home = () => {
           </p>
           <Link to="/about" className="read-more">Read Full Overview →</Link>
         </div>
-        <div className="about-image">
-          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" alt="Jharsuguda Administration" />
+        <div className="about-image animate-fade-in">
+          <img src="https://jharsuguda.odisha.gov.in/sites/default/files/styles/home/public/2023-08/Jharsuguda-02.jpg?itok=nWJvTWN5" alt="Jharsuguda Administration" />
         </div>
       </section>
 

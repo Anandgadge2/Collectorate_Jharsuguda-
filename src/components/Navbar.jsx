@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import emblem from '../assets/logos/odisha-emblem.svg';
+import emblem from '../assets/odisha-emblem.svg';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
