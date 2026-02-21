@@ -28,9 +28,9 @@ const Navbar = () => {
       <div className="official-banner">
         <div className="container banner-flex">
           <div className="gov-links">
-            </div>
+              </div>
           <div className="accessibility-links">
-            
+          
           </div>
         </div>
       </div>
