@@ -24,7 +24,16 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={isScrolled ? 'scrolled' : ''}>
+    <nav className={isScrolled ? 'top-nav scrolled' : 'top-nav'}>
+      <div className="official-banner">
+        <div className="container banner-flex">
+          <div className="gov-links">
+            </div>
+          <div className="accessibility-links">
+            
+          </div>
+        </div>
+      </div>
       <div className="container nav-content">
         <NavLink to="/" className="logo-container">
           <img src={emblem} alt="Odisha Emblem" className="logo-img" />

@@ -42,8 +42,11 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} District Administration, Jharsuguda. All rights reserved.</p>
-        <p>Managed by Collectorate Jharsuguda & NIC.</p>
+        <div className="container bottom-flex">
+          <p>&copy; {new Date().getFullYear()} Collectorate Jharsuguda, Government of Odisha. All rights reserved.</p>
+          <p>Website Designed & Developed by National Informatics Centre (NIC), Ministry of Electronics & IT.</p>
+          <p className="last-updated-text">Last Updated: Feb 21, 2026</p>
+        </div>
       </div>
     </footer>
   );

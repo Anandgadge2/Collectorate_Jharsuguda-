@@ -25,6 +25,16 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
+      {/* News Ticker */}
+      <div className="news-ticker">
+        <div className="ticker-label">LATEST UPDATES</div>
+        <div className="ticker-content">
+          <marquee behavior="scroll" direction="left">
+            Welcome to the official portal of Collectorate Jharsuguda. | New WhatsApp Citizen Service launched - Start chatting now! | 5T Governance initiatives implemented for transparency. | Visit the 'Departments' page for service details.
+          </marquee>
+        </div>
+      </div>
 
       {/* Main Stats/Info Section */}
       <section className="container info-section">
@@ -69,6 +79,28 @@ const Home = () => {
         </div>
         <div className="about-image animate-fade-in">
           <img src="https://jharsuguda.odisha.gov.in/sites/default/files/styles/home/public/2023-08/Jharsuguda-02.jpg?itok=nWJvTWN5" alt="Jharsuguda Administration" />
+        </div>
+      </section>
+
+      {/* Citizen Corner */}
+      <section className="citizen-corner container">
+        <SectionTitle title="Citizen Corner" center={true} />
+        <div className="grid grid-cols-3">
+          <div className="card service-card">
+            <i className="fas fa-file-invoice"></i>
+            <h4>Online Certificates</h4>
+            <p>Apply for Caste, Residence, and Income certificates online via e-District portal.</p>
+          </div>
+          <div className="card service-card">
+            <i className="fas fa-user-shield"></i>
+            <h4>Grievance Portal</h4>
+            <p>Submit your complaints directly to the District Collector’s grievance cell.</p>
+          </div>
+          <div className="card service-card">
+            <i className="fas fa-bullhorn"></i>
+            <h4>Tenders & Recrutiment</h4>
+            <p>View latest government tenders, vacancy notices, and administrative orders.</p>
+          </div>
         </div>
       </section>
 
