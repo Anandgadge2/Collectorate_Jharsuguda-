@@ -8,32 +8,31 @@ const Disclaimer = () => {
       <div className="container policy-container">
         <SectionTitle title="Legal Disclaimer" />
         <div className="card policy-card">
-          <h3>1. Official Communication</h3>
+          <h3>1. Accuracy of Content</h3>
           <p>
-            The content provided on this website and the WhatsApp chatbot is for general public information. 
-            Official communication from the Collectorate Jharsuguda is typically issued via stamped documents, 
-            government gazettes, or signed letters. Digital updates should be cross-verified with official 
-            notifications for any legal or formal proceedings.
+            While the District Administration Jharsuguda makes every effort to ensure the accuracy of the 
+            information on this website and via its WhatsApp service, the information is provided "as is". 
+            The administration shall not be liable for any inaccuracies or omissions.
           </p>
 
-          <h3>2. Non-binding Digital Communication</h3>
+          <h3>2. Non-liability Clause</h3>
           <p>
-            Information shared via the WhatsApp chatbot is facilitate communication and does not constitute 
-            a binding legal contract or commitment unless explicitly stated in a formal administrative order. 
-            The response timeline on the chatbot is indicative and may vary based on the nature of the query.
+            The District Administration or its employees shall not be liable for any loss, injury, or 
+            damage resulting from the use of information provided on this platform. Users are advised 
+            to verify critical information through official gazettes or physical office records.
           </p>
 
-          <h3>3. External Links</h3>
+          <h3>3. External Links Disclaimer</h3>
           <p>
-            This portal may contain links to other government or external websites. The District Administration 
-            is not responsible for the content or privacy practices of such external sites.
+            Links to other websites are provided for convenience only and do not constitute an 
+            endorsement. We have no control over the content of external sites and accept no 
+            responsibility for them.
           </p>
 
-          <h3>4. Accuracy of Information</h3>
+          <h3>4. Government Portals</h3>
           <p>
-            While every effort is made to keep the information up to date and correct, we make no 
-            representations or warranties of any kind about the completeness, accuracy, or reliability 
-            of the information on the portal.
+            This website is an official portal of the Government of Odisha. Any technical issues 
+            should be reported to the IT cell for rectification.
           </p>
         </div>
       </div>

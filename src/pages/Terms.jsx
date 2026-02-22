@@ -8,39 +8,37 @@ const Terms = () => {
       <div className="container policy-container">
         <SectionTitle title="Usage Terms" />
         <div className="card policy-card">
-          <h3>1. Acceptance of Terms</h3>
+          <h3>1. Usage Limitations</h3>
           <p>
-            By accessing this website or using the official WhatsApp Chatbot of Jharsuguda District Administration, 
-            you agree to be bound by these Terms and Conditions.
+            This digital platform, including the official website and WhatsApp chatbot, is intended for 
+            official administrative communication and public service facilitation only.
           </p>
 
-          <h3>2. Service Limitations</h3>
+          <h3>2. Misuse Policy</h3>
           <p>
-            The digital services provided are for information and facilitation purposes. While we strive for 
-            accuracy, the administration does not guarantee that the services will be uninterrupted or error-free. 
-            Official documents issued offline or via official portals remain the final authority.
+            Any attempt to misuse this platform for spreading misinformation, harassment, or 
+            unauthorized access to administrative data is strictly prohibited and subject to legal action.
           </p>
 
-          <h3>3. Usage Rules</h3>
-          <p>Users must not:</p>
-          <ul>
-            <li>Use the platform to spread misinformation or hate speech.</li>
-            <li>Submit fraudulent grievances or false identity information.</li>
-            <li>Attempt to bypass security features of the portal or chatbot.</li>
-            <li>Use automated scripts to spam the administrative channels.</li>
-          </ul>
-
-          <h3>4. No Misuse Policy</h3>
+          <h3>3. Official Communication Disclaimer</h3>
           <p>
-            The WhatsApp chatbot is strictly for administrative and public service purposes. Any misuse of 
-            the platform for personal gain, harassment, or commercial advertising is strictly prohibited 
-            and may lead to legal action under the IT Act.
+            Digital communications via this website or WhatsApp are for facilitation and do not bypass 
+            established legal or administrative protocols. Official orders issued in writing by the 
+            Collectorate remain the final authority.
           </p>
 
-          <h3>5. Modifications</h3>
+          <h3>4. Response Guarantee</h3>
           <p>
-            The District Administration reserves the right to modify these terms at any time without prior notice. 
-            Continued use of the services constitutes acceptance of the revised terms.
+            While we strive for promptness, the District Administration provides no guarantee of an 
+            immediate response. Urgent matters should be addressed through official physical channels 
+            or emergency landlines.
+          </p>
+
+          <h3>5. Government Authority Disclaimer</h3>
+          <p>
+            The services provided through this platform are an extension of the District Administration 
+            Jharsuguda, Government of Odisha. The administration reserves the right to suspend or 
+            modify digital services at any time for security or administrative reasons.
           </p>
         </div>
       </div>

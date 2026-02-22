@@ -41,32 +41,36 @@ const WhatsAppService = () => {
           </div>
 
           <div className="wa-features">
-            <SectionTitle title="What the Chatbot can do" />
+            <SectionTitle title="Available Services" />
             <ul className="wa-feature-list">
               <li>
-                <strong>📢 Public Announcements</strong>
-                <p>Get instant updates on weather, events, and government notifications.</p>
+                <strong>📢 Grievance Submission</strong>
+                <p>Register complaints directly with the administration and upload supporting documents.</p>
               </li>
               <li>
-                <strong>⚖️ Grievance Filing</strong>
-                <p>Submit complaints directly to the Collectorate with photo/document evidence.</p>
+                <strong>📄 Application Status Check</strong>
+                <p>Check the real-time status of your certificates and public service applications.</p>
               </li>
               <li>
-                <strong>📄 Document Status</strong>
-                <p>Track the status of your certificates and applications.</p>
+                <strong>🔔 Public Notice Alerts</strong>
+                <p>Subscribe to receive important alerts regarding weather, holidays, and recruitment notices.</p>
               </li>
               <li>
-                <strong>📍 Office Locator</strong>
-                <p>Find contact details and locations of various block and tehsil offices.</p>
+                <strong>⏳ Response Time Expectations</strong>
+                <p>
+                  Automated info: Instant<br />
+                  Grievance Acknowledgment: Within 24 hours<br />
+                  Resolution: As per Citizen's Charter timelines
+                </p>
               </li>
             </ul>
 
             <div className="wa-privacy-note card">
-              <h4>🔒 Data Privacy Note</h4>
+              <h4>🔒 Data Privacy & Terms</h4>
               <p>
-                Your privacy is our priority. Information submitted through this WhatsApp chatbot 
+                Your privacy is our priority. Information submitted through this WhatsApp service 
                 is used solely for grievance redressal and administrative communication. 
-                Please refer to our <a href="/privacy-policy">Privacy Policy</a> for more details.
+                Full details are available in our <a href="/privacy-policy" style={{ color: 'var(--primary-color)', fontWeight: 'bold' }}>Privacy Policy</a> and <a href="/terms" style={{ color: 'var(--primary-color)', fontWeight: 'bold' }}>Terms of Service</a>.
               </p>
             </div>
           </div>

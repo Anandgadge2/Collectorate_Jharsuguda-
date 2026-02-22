@@ -42,12 +42,13 @@ const Home = () => {
           <div className="card info-card">
             <i className="fas fa-map-marker-alt"></i>
             <h3>Location</h3>
-            <p>Collectorate, NH 10, Jharsuguda Road, Bijju Nagar, Jharsuguda, Odisha 768204</p>
+            <p>Collectorate, Jharsuguda, Odisha – 768204</p>
           </div>
           <div className="card info-card">
             <i className="fas fa-phone"></i>
             <h3>Contact</h3>
-            <p>06645-270070 / 8093178590</p>
+            <p>06645-270070</p>
+            <p>9356150561</p>
           </div>
           <div className="card info-card">
             <i className="fas fa-envelope"></i>

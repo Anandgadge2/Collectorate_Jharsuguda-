@@ -34,9 +34,9 @@ const Footer = () => {
 
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>Collectorate, NH 10, Jharsuguda Road,</p>
-          <p>Bijju Nagar, Jharsuguda, Odisha 768204</p>
-          <p>Phone: 06645-270070 / 8093178590</p>
+          <p>District Administration Jharsuguda</p>
+          <p>Collectorate, Jharsuguda – 768204</p>
+          <p>Phone: 06645-270070, 9356150561</p>
           <p>Email: dm-jharsuguda@nic.in</p>
         </div>
       </div>
