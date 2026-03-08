@@ -45,7 +45,7 @@ const Home = () => {
             <i className="fas fa-phone"></i>
             <h3>Contact</h3>
             <p>06645-270070</p>
-            <p>9356150561</p>
+        
           </div>
           <div className="card info-card">
             <i className="fas fa-envelope"></i>
