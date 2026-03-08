@@ -15,10 +15,7 @@ const Home = () => {
           <h1>District Administration, Jharsuguda</h1>
           <p className="hero-subtitle">Official Portal of Collectorate Jharsuguda, Government of Odisha</p>
           <div className="hero-divider"></div>
-          <div className="collector-info">
-            <span className="label">District Collector & Magistrate</span>
-            <span className="name">Shri Kunal Motiram Chavan, IAS</span>
-          </div>
+         
           <div className="hero-actions">
             <Link to="/about" className="btn btn-primary">Learn More</Link>
             <Link to="/whatsapp-service" className="btn btn-secondary">WhatsApp Chatbot</Link>
